@@ -1,6 +1,7 @@
 # find_invalid_link
 
-I used Python3.7.5 and installed requests, requests-file, beautifulsoup4 using PIP
+I used Python3.7.5 and installed requests, requests-file, beautifulsoup4.
 
-Write the script the main reason is that, when I read the JMeter install directory printable_docs/usermanual/component_reference HTML, visit BeanShell_Assertion found
-The cells in the column Desc in the Parameters table Reset* row were hyperlinked incorrectly in the section, so I decided to write a script to see if all the HTML files had similar problems.
+Write the script the main reason is that, when I read "printable_docs/usermanual/component_reference.html" under JMeter install directory, on visit "BeanShell_Assertion" section, In the "Parameters" table "Reset*" row, the cell hyperlink in the "Desc" column is wrong, so I decided to write a script to see if all the html files have similar problems.
+
+The bug has been uploaded to [ASF Bugzilla](https://bz.apache.org/bugzilla/), [click here](https://bz.apache.org/bugzilla/show_bug.cgi?id=64302) to view the progress of the bug.
